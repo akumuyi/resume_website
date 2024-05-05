@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Abiodun Kumuyi Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/29094c1867.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Abiodun. (1).png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--<div class="header-text">
+        <div>
+            <h4>Software Engineer & Technical Analyst</h4>
+        </div>
+        <div>
+            <h1>Hi, I'm <span>Abiodun</span><br>Kumuyi from Nigeria</h1>
+        </div>
+    </div> -->
+    <!------------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Hi, I'm <span>Abiodun</span> Kumuyi from Nigeria. I am passionate about translating ideas into
+                        readily accessible effective digital solutions.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!--<p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Python, Javascript, MQL5</li>
+                            <li><span>Frameworks & Technologies</span><br> Django, MySQL, Git</li>
+                            <li><span>Financial Analysis/Trading</span><br>Technical Analysis, Risk Management</li>
+                            <li><span>Soft Skills</span><br>Problem-solving, Communication, Teamwork</li>
+                        </ul>
+                    </div>
+                    <!--<div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br> Web/App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BSc (Hons) Software Engineering</span><br>African Leadership University</li>
+                            <li><span>Diploma Mechanical Engineering</span><br> The Polytechnic, Ibadan</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Backend Dev.</span><br>HealthPass</li>
+                            <li><span>Web-App Development/QA Tester</span><br> QwikAid</li>
+                            <li><span>QA Tester</span><br>Whatsnxt</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Happy to Serve</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Let me transform your ideas into a beautiful and engaging website with user-friendly interfaces
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I specialize in creating user interfaces (UI) that are both aesthetically pleasing and intuitive
+                        to use. My user experience (UX) design skills ensure your website or application is easy to
+                        navigate and meets the needs of your users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                    <h2>Backend Dev.</h2>
+                    <p>The backbone of any website or application is its backend. I have the expertise to build secure
+                        and scalable backend systems that power your digital products.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                    <h2>Technical Analysis</h2>
+                    <p>I can analyze market trends and identify potential investment opportunities using proprietary
+                        strategies and technical analysis tools.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                    <h2>Portfolio Management</h2>
+                    <p>Coming Soon!!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------portfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/healthpass.png">
+                    <div class="layer">
+                        <h3><strong>HealthPass</strong></h3>
+                        <p>Medical records on the go!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/QwikAid Logo.png">
+                    <div class="layer">
+                        <h3><strong>QwikAid</strong></h3>
+                        <p>Emergency Reporting App</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Whatsnxt.PNG">
+                    <div class="layer">
+                        <h3><strong>Whatsnxt</strong></h3>
+                        <p>Everything event.</p>
+                        <a href="https://whatsnxt.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------contact---- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> a.kumuyi@alustudent.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> +250798048842</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abiodunkumuyi" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/akumuyi" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/Lloydkeezy" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://t.me/lloyd_fx" target="_blank"><i class="fa fa-telegram"
+                                aria-hidden="true"></i></a>
+                    </div>
+                    <a href="images/Kumuyi-Abiodun.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Full Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Leave your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Abiodun Kumuyi 2024.</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyqI7nvYoFQkKbkvPX0xZM_yID8gletepSHqJfLGXGUbavBYue3aJpMrG_AEl67MX-tBw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Thank you for your feedback!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+</body>
+
+</html>
